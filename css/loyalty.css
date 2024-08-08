@@ -1,0 +1,141 @@
+#search-banner {
+    max-width: 1300px;
+    height: 500px;
+    border-radius: 50px;
+    background-color: #90a056;
+    margin: 10px auto;
+    background-image: url('../images/loyaltyy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.search-banner-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-block: center;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+/* Pseudo-element to create the white transparent layer */
+.search-banner-text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust transparency here */
+    z-index: -1; /* Behind the text */
+    border-radius: 50px;
+}
+
+.search-banner-text h1 {
+    font-size: 5rem; /* Adjusted font size */
+    line-height: 1.2; /* Adjusted line height */
+    color: #11034a;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 0; /* Remove default margin */
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px; /*  max-width for  readability */
+    margin: 50px auto;
+    padding: 40px; /*  padding for  spacing */
+    background-color: #c0bcda; /* Lightened background color for  contrast */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /*  box shadow for depth */
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #1e0847;
+    margin-bottom: 30px; /*  margin bottom for better separation */
+}
+
+form {
+    margin-top: 20px;
+}
+
+label,
+input,
+select {
+    display: block;
+    margin-bottom: 10px;
+    align-items: center;
+    border-radius: 5px;
+    outline: none;
+    color: rgb(24, 6, 65);
+    font-size: 1.4rem;
+}
+label{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%; /* Input and select take full width */
+    padding: 10px; /* Increased padding */
+    font-size: 1.2rem; /* Adjusted font size */
+}
+textarea {
+    resize: vertical;
+}
+
+
+button {
+    padding: 15px 30px; /* Increased padding for better button size */
+    font-size: 1.2rem;
+    background-color: #4eb060;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center; /* Center-align the button */
+}
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #4a784d;
+    
+}
+
+.loyalty-benefits {
+    margin-top: 20px;
+}
+
+.loyalty-benefits h2 {
+    margin-bottom: 10px;
+}
+
+.loyalty-benefits-details {
+    display: none;
+}
+
+.loyalty-benefits-details.show {
+    display: block;
+}

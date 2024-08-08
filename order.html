@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneStopShop</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/order.css">
+
+    <link rel="shortcut icon" href="images/o.png"/>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navigation">
+        <a href="#" class="logo">
+            <span>One</span>StopShop
+        </a>
+        <ul class="menu">
+            <li><a href="index.html" class="active"> Home</a></li>
+            <li><a href="about-us.html"> About</a></li>
+            <li><a href="dairy.html"> Dairy</a></li>
+            <li><a href="vegetables.html"> Vegetables</a></li>
+            <li><a href="cosmetic.html"> Cosmetics</a></li>
+            <li><a href="order.html"> Order</a></li>
+            <li><a href="loyalty.html"> Loyalty</a></li>
+        </ul>
+        <div class="right-nav">
+            <a href="#" class="like">
+                <i class="far fa-heart"></i>
+                <span>0</span>
+            </a>
+            <a href="#" class="cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span>0</span>
+            </a>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <h2>Order Products</h2>
+        <form id="orderform">
+            <div class="form-section">
+                <h3>Fruits</h3>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="apple">Apple (Kg):</label>
+                    <span class="price">Rs. 1000.00</span>
+                    <img src="./images/apple.jpg" alt="Product 1">
+                     <!-- Add this line -->
+                    <input type="number" id="apple" name="apple" min="0" step="0.1" data-price="1000">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="banana">Banana (Kg):</label>
+                    <span class="price">Rs. 500.00</span>
+                    <img src="./images/banana.jpg" alt="banana">
+                    <input type="number" id="banana" name="banana" min="0" step="0.1" data-price="500">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="mango">Mango (Kg):</label>
+                    <span class="price">Rs. 750.00</span>
+                    <img src="./images/mango.png" alt="mango">
+                    <input type="number" id="mango" name="mango" min="0" step="0.1" data-price="750">
+                    </div>
+                    </div>
+                    </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="orange">Orange (Kg):</label>
+                    <span class="price">Rs. 900.00</span>
+                    <img src="./images/orange.png" alt="orange">
+                    <input type="number" id="orange" name="orange" min="0" step="0.1" data-price="900">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="wood-apple">Wood Apple (Kg):</label>
+                    <span class="price">Rs. 600.00</span>
+                    <img src="./images/wood.jpg" alt="wood-apple">
+                    <input type="number" id="wood-apple" name="wood-apple" min="0" step="0.1" data-price="600">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="watermelon">Watermelon (Kg):</label>
+                    <span class="price">Rs. 350.00</span>
+                    <img src="./images/watermelon.jpg" alt="watermelon">
+                    <input type="number" id="watermelon" name="watermelon" min="0" step="0.1" data-price="350">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="pineapple">Pineapple (Kg):</label>
+                    <span class="price">Rs. 500.00</span>
+                    <img src="./images/pineapple.jpeg" alt="pineapple">
+                    <input type="number" id="pineapple" name="pineapple" min="0" step="0.1" data-price="500">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="avacado">Avacado (Kg):</label>
+                    <span class="price">Rs. 700.00</span>
+                    <img src="./images/avacado.jpeg" alt="avacado">
+                    <input type="number" id="avacado" name="avacado" min="0" step="0.1" data-price="700">
+                    </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="form-section">
+                <div class="product-container">
+                    <div class="product-card">
+                <h3>Vegetables</h3>
+                <div class="form-group">
+                    <label for="carrot">Carrot (Kg):</label>
+                    <img src="./images/carrots.png" alt="carrot">
+                    <span class="price">Rs. 100.00</span>
+                    <input type="number" id="carrot" name="carrot" min="0" step="0.1" data-price="100">
+                    </div>
+                    </div>
+                </div>
+                <!-- Add more vegetables here -->
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="tomato">Tomatoes (Kg):</label>
+                    <span class="price">Rs. 75.00</span>
+                    <img src="./images/tomato.png" alt="tomato">
+                    <input type="number" id="tomato" name="tomato" min="0" step="0.1" data-price="75">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="spinach">Spinach (Kg):</label>
+                    <span class="price">Rs. 350.00</span>
+                    <img src="./images/spin.png" alt="spinach">
+                    <input type="number" id="spinach" name="spinach" min="0" step="0.1" data-price="350">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="broccoli">Broccoli (Kg):</label>
+                    <span class="price">Rs. 300.00</span>
+                    <img src="./images/broc'.png" alt="broccoli">
+                    <input type="number" id="broccoli" name="broccoli" min="0" step="0.1" data-price="300">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="cucumber">Cucumber (Kg):</label>
+                    <span class="price">Rs. 175.00</span>
+                    <img src="./images/cucum.png" alt="cucumber">
+                    <input type="number" id="cucumber" name="cucumber" min="0" step="0.1" data-price="175">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="lettuce">Lettuce (Kg):</label>
+                    <span class="price">Rs. 100.00</span>
+                    <img src="./images/lettuce.jpg" alt="lettuce">
+                    <input type="number" id="lettuce" name="lettuce" min="0" step="0.1" data-price="100">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="onion">Onions (Kg):</label>
+                    <span class="price">Rs. 100.00</span>
+                    <img src="./images/onion.png" alt="onion">
+                    <input type="number" id="onion" name="onion" min="0" step="0.1" data-price="100">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="potato">Potatoes (Kg):</label>
+                    <span class="price">Rs. 150.00</span>
+                    <img src="./images/potato.png" alt="potato">
+                    <input type="number" id="potato" name="potato" min="0" step="0.1" data-price="150">
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h3>Dairy Produce</h3>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="milk">Milk (Quantity):</label>
+                    <span class="price">Rs. 500.00</span>
+                    <img src="./images/milk.png" alt="milk">
+                    <input type="number" id="milk" name="milk" min="0" step="1" data-price="500">
+                    </div>
+                    </div>
+                </div>
+                <!-- Add more dairy produce here -->
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="yoghurt">Yoghurt (Quantity):</label>
+                    <span class="price">Rs. 650.00</span>
+                    <img src="./images/yoghurt.png" alt="yoghurt">
+                    <input type="number" id="yoghurt" name="yoghurt" min="0" step="1" data-price="650">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="cheese">Cheese (Quantity):</label>
+                    <span class="price">Rs. 750.00</span>
+                    <img src="./images/cheese.png" alt="cheese">
+                    <input type="number" id="cheese" name="cheese" min="0" step="1" data-price="750">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="butter">Butter (Quantity):</label>
+                    <span class="price">Rs. 1000.00</span>
+                    <img src="./images/butter.png" alt="butter">
+                    <input type="number" id="butter" name="butter" min="0" step="1" data-price="1000">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="cream">Cream (Quantity):</label>
+                    <span class="price">Rs. 1000.00</span>
+                    <img src="./images/cream.png" alt="cream">
+                    <input type="number" id="cream" name="cream" min="0" step="1" data-price="1000">
+                    </div>
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="eggs">Eggs (Quantity):</label>
+                    <span class="price">Rs. 60.00</span>
+                    <img src="./images/eggs.jpg" alt="eggs">
+                    <input type="number" id="eggs" name="eggs" min="0" step="1" data-price="60">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="ice-cream">Ice-Cream (Quantity):</label>
+                    <span class="price">Rs. 1000.00</span>
+                    <img src="./images/icecream.png" alt="ice-cream">
+                    <input type="number" id="ice-cream" name="ice-cream" min="0" step="1" data-price="1000">
+                    </div>
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="whippedcream">Whipped Cream (Quantity):</label>
+                    <span class="price">Rs. 1500.00</span>
+                    <img src="./images/whipped cream.jpeg" alt="whippedcream">
+                    <input type="number" id="whippedcream" name="whippedcream" min="0" step="1" data-price="1500">
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="form-section">
+                <h3>Meat and Seafood</h3>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="chicken">Chicken (Kg):</label>
+                    <span class="price">Rs. 1750.00</span>
+                    <img src="./images/chicken.jpg" alt="chicken">
+                    <input type="number" id="chicken" name="chicken" min="0" step="0.1" data-price="1750">
+                    </div>
+                    </div>
+                </div>
+                <!-- Add more meat and seafood here -->
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="beef">Beef (Kg):</label>
+                    <span class="price">Rs. 2000.00</span>
+                    <img src="./images/beef.jpeg" alt="beef">
+                    <input type="number" id="beef" name="beef" min="0" step="0.1" data-price="2000">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="fish">Fish (Kg):</label>
+                    <span class="price">Rs. 1750.00</span>
+                    <img src="./images/fish-meat-vector-889890.jpg" alt="fish">
+                    <input type="number" id="fish" name="fish" min="0" step="0.1" data-price="1750">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="turkey">Turkey (Kg):</label>
+                    <span class="price">Rs. 2500.00</span>
+                    <img src="./images/turkey.jpeg" alt="turkey">
+                    <input type="number" id="turkey" name="turkey" min="0" step="0.1" data-price="2500">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="mutton">Mutton (Kg):</label>
+                    <span class="price">Rs. 2400.00</span>
+                    <img src="./images/mutton.jpeg" alt="mutton">
+                    <input type="number" id="mutton" name="mutton" min="0" step="0.1" data-price="2400">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="sausage">Sausage (Kg):</label>
+                    <span class="price">Rs. 750.00</span>
+                    <img src="./images/sausage.jpeg" alt="sausage">
+                    <input type="number" id="sausage" name="Sausage" min="0" step="0.1" data-price="750">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="prawns">Prawns (Kg):</label>
+                    <span class="price">Rs. 2900.00</span>
+                    <img src="./images/prawns.png" alt="prawns">
+                    <input type="number" id="prawns" name="prawns" min="0" step="0.1" data-price="2900">
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h3>Baking and Cooking Ingredients</h3>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="flour">Flour (Quantity):</label>
+                    <span class="price">Rs. 500.00</span>
+                    <img src="./images/flour.jpeg" alt="flour">
+                    <input type="number" id="flour" name="flour" min="0" step="1" data-price="500">
+                    </div>
+                    </div>
+                </div>
+                <!-- Add more baking and cooking ingredients here -->
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="sugar">Sugar (Quantity):</label>
+                    <span class="price">Rs. 600.00</span>
+                    <img src="./images/sugar.jpeg" alt="sugar">
+                    <input type="number" id="sugar" name="sugar" min="0" step="1" data-price="600">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="oil">Oil (Quantity):</label>
+                    <span class="price">Rs. 700.00</span>
+                    <img src="./images/oil.png" alt="oil">
+                    <input type="number" id="oil" name="oil" min="0" step="1" data-price="700">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="yeast">Yeast (Quantity):</label>
+                    <span class="price">Rs. 800.00</span>
+                    <img src="./images/yeast.jpeg" alt="yeast">
+                    <input type="number" id="yeast" name="yeast" min="0" step="1" data-price="800"> 
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="chilli-powder">Chilli-Powder (Quantity):</label>
+                    <span class="price">Rs. 450.00</span>
+                    <img src="./images/chilli.jpeg" alt="chilli-powder">
+                    <input type="number" id="chilli-powder" name="chilli-powder" min="0" step="1" data-price="450">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="baking-powder">Baking Powder (Quantity):</label>
+                    <span class="price">Rs. 350.00</span>
+                    <img src="./images/bpowder.jpeg" alt="baking-powder">
+                    <input type="number" id="baking-powder" name="baking-powder" min="0" step="1" data-price="350">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="cooking-chocolate">Cooking Chocolate (Quantity):</label>
+                    <span class="price">Rs. 750.00</span>
+                    <img src="./images/choc.jpeg" alt="cooking-chocolate">
+                    <input type="number" id="cooking-chocolate" name="cooking-chocolate" min="0" step="1" data-price="750">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="product-container">
+                        <div class="product-card">
+                    <label for="vanilla-extract">Vanilla Extract (Quantity):</label>
+                    <span class="price">Rs. 150.00</span>
+                    <img src="./images/vextract.png" alt="vanilla-extract">
+                    <input type="number" id="vanilla-extract" name="vanilla-extract" min="0" step="1" data-price="150">
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="form-group">
+                <button type="button" id="add-to-cart" class="action-btn">Add to Cart</button>
+                <button type="button" id="add-to-favorites" class="action-btn">Add to Favorites</button>
+                <button type="button" id="apply-favorites" class="action-btn">Apply Favorites</button>
+            </div>
+        </form>
+
+        <h3>Current Order</h3>
+        <table id="order-table">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Cart items will be dynamically added here -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Total</td>
+                    <td id="total-price">Rs 0.00</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <div class="form-group">
+            <button type="button" id="buy-now" class="action-btn">Buy Now</button>
+        </div>
+    </div>
+
+
+
+    <script src="js/order.js"></script>
+</body>
+</html>

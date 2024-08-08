@@ -1,0 +1,124 @@
+body {
+    font-family: 'Roboto';
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    background-color: #333;
+    padding: 1rem;
+}
+
+.navigation .logo {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navigation .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation .menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.form-section {
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Styles for the order summary table */
+#order-summary {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+#order-summary th,
+#order-summary td {
+    padding: 0.75rem;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+#order-summary thead {
+    background-color: #f8f8f8;
+}
+
+#order-summary th {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+}
+
+#order-summary tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#order-summary tfoot td {
+    font-weight: bold;
+    background-color: #f8f8f8;
+}
+
+#total-price {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+/* Add some hover effects */
+#order-summary tbody tr:hover {
+    background-color: #f1f1f1;
+}
